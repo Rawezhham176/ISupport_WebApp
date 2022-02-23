@@ -76,7 +76,7 @@ export default {
 }
 
 .head .text hr {
-  height: 10px;
+  height: 2px;
   border: none;
   background: black;
 }

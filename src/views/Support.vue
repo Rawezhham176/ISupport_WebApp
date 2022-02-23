@@ -28,16 +28,19 @@
   background: rgba(0, 233, 116, 0.774);
   padding: 30px 50px;
   text-align: center;
-}
-
-.contact {
   width: 20%;
+  transition: all 0.5s ease;
 }
 
 .contact img {
   width: 50%;
   animation: anim 4s infinite;
   cursor: pointer;
+}
+
+.contact:hover {
+  background: rgba(0, 0, 0, 0.774);
+  color: white;
 }
 
 @keyframes anim {
