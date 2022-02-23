@@ -1,10 +1,10 @@
 <template>
   <ul>
-    <li>HOME</li>
-    <li>BLOG</li>
-    <li>SUPPORT</li>
-    <li>HELP</li>
-    <li>ABOUT</li>
+    <li><router-link to="/">HOME</router-link></li>
+    <li><router-link to="/blog">BLOG</router-link></li>
+    <li><router-link to="/support">SUPPORT</router-link></li>
+    <li><router-link to="/help">HELP</router-link></li>
+    <li><router-link to="/about">ABOUT</router-link></li>
   </ul>
 </template>
 
@@ -26,5 +26,6 @@ li {
   display: inline;
   margin-right: 60px;
   cursor: pointer;
+  font-size: 20px;
 }
 </style>

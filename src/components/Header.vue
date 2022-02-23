@@ -1,8 +1,10 @@
 <template>
   <header>
-    <p class="">ISUPPORT</p>
+    <p class="logo"><router-link to="/">ISUPPORT</router-link></p>
     <Nav />
-    <p>User</p>
+    <h3>
+      <fa icon="user" />
+    </h3>
   </header>
 </template>
 
@@ -25,5 +27,18 @@ export default {
 header {
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(15px);
+}
+
+header h3 {
+  cursor: pointer;
+}
+
+.logo {
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 20px;
 }
 </style>
