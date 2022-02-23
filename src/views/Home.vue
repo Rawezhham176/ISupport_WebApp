@@ -1,13 +1,66 @@
 <template>
-  <div class="head">
-    <div class="pic">
-      <img src="../assets/log.png" alt="" />
+  <div>
+    <div class="head">
+      <div class="pic">
+        <img src="../assets/log.png" alt="" />
+      </div>
+      <div class="text">
+        <h1>Support with another level</h1>
+        <hr />
+        <p class="p1">You need help? Wer are for you.</p>
+        <p class="p2"><router-link to="/contact">Contact us</router-link></p>
+      </div>
     </div>
-    <div class="text">
-      <h1>Support with another level</h1>
-      <hr />
-      <p class="p1">You need help? Wer are for you.</p>
-      <p class="p2"><router-link to="/contact">Contact us</router-link></p>
+
+    <div class="after_head">
+      <div class="faq">
+        <h1>FAQ</h1>
+        <hr />
+        <ul>
+          <li>Some question?</li>
+          <li>Some question?</li>
+          <li>Some question?</li>
+          <li>Some question?</li>
+          <li>Some question?</li>
+        </ul>
+      </div>
+      <div class="blogs">
+        <div class="start_blog">
+          <h1>Home</h1>
+          <hr />
+          <p>
+            oject, Wikipedia, is the most popular wiki-based website, and is one
+            of the most widely viewed sites in the world, having been ranked in
+            the top twenty since 2007.[3] Wikipedia is not a single wiki but
+            rather a collection of hundreds of wikis, with each one pertaining
+            to a specific language. In addition to Wikipedia, there are hu
+          </p>
+        </div>
+
+        <div class="start_blog">
+          <h1>Home</h1>
+          <hr />
+          <p>
+            oject, Wikipedia, is the most popular wiki-based website, and is one
+            of the most widely viewed sites in the world, having been ranked in
+            the top twenty since 2007.[3] Wikipedia is not a single wiki but
+            rather a collection of hundreds of wikis, with each one pertaining
+            to a specific language. In addition to Wikipedia, there are hu
+          </p>
+        </div>
+
+        <div class="start_blog">
+          <h1>Home</h1>
+          <hr />
+          <p>
+            oject, Wikipedia, is the most popular wiki-based website, and is one
+            of the most widely viewed sites in the world, having been ranked in
+            the top twenty since 2007.[3] Wikipedia is not a single wiki but
+            rather a collection of hundreds of wikis, with each one pertaining
+            to a specific language. In addition to Wikipedia, there are hu
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -93,5 +146,48 @@ export default {
 
 .head .text .p2 a {
   color: #ff7a7a;
+}
+
+.after_head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.after_head .faq {
+  width: 40%;
+}
+
+.after_head .faq h1 {
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.after_head .faq ul {
+  list-style: none;
+  padding: 0;
+}
+
+.after_head .faq ul li {
+  font-size: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.after_head .blogs {
+  width: 50%;
+}
+
+.after_head .blogs .start_blog {
+  background: black;
+  color: white;
+  padding: 25px 40px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.after_head .blogs .start_blog h1 {
+  margin: 0;
 }
 </style>

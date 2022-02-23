@@ -9,6 +9,7 @@
         collection of hundreds of wikis, with each one pertaining to a specific
         language. In addition to Wikipedia, there are hu
       </p>
+      <button>Read more</button>
     </div>
     <div class="box">
       <h1>Headline</h1>
@@ -19,6 +20,7 @@
         collection of hundreds of wikis, with each one pertaining to a specific
         language. In addition to Wikipedia, there are hu
       </p>
+      <button>Read more</button>
     </div>
     <div class="box">
       <h1>Headline</h1>
@@ -29,6 +31,7 @@
         collection of hundreds of wikis, with each one pertaining to a specific
         language. In addition to Wikipedia, there are hu
       </p>
+      <button>Read more</button>
     </div>
     <div class="box">
       <h1>Headline</h1>
@@ -39,6 +42,7 @@
         collection of hundreds of wikis, with each one pertaining to a specific
         language. In addition to Wikipedia, there are hu
       </p>
+      <button>Read more</button>
     </div>
     <div class="box">
       <h1>Headline</h1>
@@ -49,6 +53,7 @@
         collection of hundreds of wikis, with each one pertaining to a specific
         language. In addition to Wikipedia, there are hu
       </p>
+      <button>Read more</button>
     </div>
   </div>
 </template>
@@ -63,11 +68,25 @@
 .boxes .box {
   background: rgba(0, 233, 116, 0.774);
   margin: 70px;
-  padding: 10px 30px;
+  padding: 15px 30px;
   text-align: center;
   display: block;
   width: 33%;
   transition: all 0.5s ease;
+}
+
+.boxes .box button {
+  border: none;
+  padding: 5px 10px;
+  background: white;
+  color: black;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.boxes .box button:hover {
+  background: rgba(206, 83, 255, 0.5);
+  color: white;
 }
 
 .boxes .box:hover {

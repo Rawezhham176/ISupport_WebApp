@@ -32,6 +32,7 @@ header {
   position: sticky;
   top: 0;
   backdrop-filter: blur(15px);
+  padding: 0 20px;
 }
 
 header h3 {
