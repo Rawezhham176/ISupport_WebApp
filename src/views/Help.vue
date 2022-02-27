@@ -23,8 +23,18 @@
         </p>
       </div>
     </div>
+      <Chatbot />
   </div>
 </template>
+
+<script>
+
+import Chatbot from "../components/Chatbot.vue"
+
+export default {
+  components: { Chatbot },
+}
+</script>
 
 <style>
 .help_box {
