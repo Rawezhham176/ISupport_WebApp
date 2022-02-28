@@ -20,6 +20,7 @@ ul {
   color: black;
   position: sticky;
   top: 0;
+  padding-top: 4px;
 }
 
 li {
@@ -27,5 +28,16 @@ li {
   margin-right: 60px;
   cursor: pointer;
   font-size: 20px;
+  font-weight: 500;
+}
+
+ul li a {
+  transition: all 0.5s ease-in-out;
+}
+
+ul li a:hover {
+  color: rgb(206, 83, 255);
+  scale: 1.2;
+  border-bottom: 1px solid black;
 }
 </style>

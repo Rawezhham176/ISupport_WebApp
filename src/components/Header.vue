@@ -32,11 +32,13 @@ header {
   position: sticky;
   top: 0;
   backdrop-filter: blur(15px);
-  padding: 0 20px;
+  padding: 0 80px;
+  margin: -80px -80px 50px -80px;
 }
 
 header h3 {
   cursor: pointer;
+  padding-top: 4px;
 }
 
 .logo {

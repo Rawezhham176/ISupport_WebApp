@@ -1,7 +1,7 @@
 <template>
   <div class="help_box">
     <div class="head">
-      <img src="../assets/help.jpg" alt="" />
+      <img src="../assets/school.jpg" alt="" />
       <div class="help_head_text">
         <h1>We are here to help you</h1>
         <p>

@@ -2,7 +2,7 @@
   <div>
     <div class="head">
       <div class="pic">
-        <img src="../assets/log.png" alt="" />
+        <img src="../assets/programer.jpg" alt="" />
       </div>
       <div class="text">
         <h1>Support with another level</h1>
