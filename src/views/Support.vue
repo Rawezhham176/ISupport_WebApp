@@ -10,9 +10,9 @@
     </div>
     <div class="contact">
       <h1>Chat with us</h1>
-      <router-link to="/chat"
+      <a href="http://localhost:5000"
         ><img src="../assets/Robot.png" alt=""
-      /></router-link>
+      /></a>
     </div>
   </div>
 </template>
